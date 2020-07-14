@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="#9C27B0"
+    tools:context=".RegisterFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="RollNo."
+
+        android:textColor="#111"
+        android:background="#FFEB3B"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/usereditt"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="NAME"
+        android:textColor="#111"
+
+        android:background="#FFEB3B"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/username"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="ADDRESS"
+
+        android:textColor="#111"
+        android:background="#FFEB3B"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/useraddr"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="CONTACT"
+        android:textColor="#111"
+
+        android:background="#FFEB3B"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/usercona"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:singleLine="true"
+        android:hint="COURSE"
+        android:textColor="#111"
+
+        android:background="#FFEB3B"
+        android:paddingLeft="5dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/usercoa"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_marginTop="20dp"
+        android:background="#367191"
+        android:layout_gravity="center"
+        android:text="Register"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button1"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="Show"
+        />
+
+
+</LinearLayout>
